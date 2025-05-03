@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <title>Student Dashboard</title>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/logger.js"></script>
+  <script src="js/student.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+  <h2>Welcome Student</h2>
+  <button onclick="logout()">Logout</button>
+
+  <h3>Book Appointment</h3>
+  <select id="teacherSelect"></select><br />
+  <input type="text" id="purpose" placeholder="Purpose" />
+  <button onclick="bookAppointment()">Book</button>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "soil-farming-agent-3eb4e",
+    "firebase use --add": "soil-farming-agent-3eb4e",
+    "firebase deploy": "soil-farming-agent-3eb4e"
+  },
+  "targets": {},
+  "etags": {}
+}

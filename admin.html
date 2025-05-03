@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <title>Admin Dashboard</title>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/logger.js"></script>
+  <script src="js/admin.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+  <h2>Admin Panel</h2>
+  <button onclick="logout()">Logout</button>
+
+  <h3>Teachers List</h3>
+  <ul id="teacherList"></ul>
+</body>
+</html>
