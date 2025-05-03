@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student-Teacher Appointment Booking System
 
 ## Technologies Used
@@ -20,3 +21,6 @@ Host using GitHub Pages or Firebase Hosting
 1. Create Firebase Project
 2. Add Firebase Config in `firebase-config.js`
 3. Deploy with `firebase deploy` or GitHub Pages
+=======
+
+>>>>>>> 19578cadfd7f3a781637d52599ee6ed1aea0912c
